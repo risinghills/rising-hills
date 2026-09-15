@@ -1,5 +1,7 @@
 {
   "version": 2,
+  "installCommand": "node -e \"console.log('No install required')\"",
+  "buildCommand": "node -e \"console.log('Static site ready')\"",
   "outputDirectory": "dist",
   "cleanUrls": true
 }
